@@ -1,0 +1,309 @@
+/* .roboto_medium{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+} */
+.Post-Link{
+    color: black;
+}
+
+.StartPage{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+}
+.body{
+    width: 100%;
+    min-height: 100%;
+}
+
+.cards{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.cards__header{
+    padding-top: 60px;
+    display: flex;
+
+}
+.cards__search{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    width: 170px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    margin-right: 20px;
+    background: url(./search.svg) no-repeat, #C4C4C4;
+    background-position: 96% 50%;
+}
+.multiselect{
+    position: relative;
+}
+select{
+    padding: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    background-image: url('./arrow.svg');
+    background-repeat: no-repeat;
+    background-position: 96% 50%;
+}
+#checkboxes{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #C4C4C4;
+    width: 83%;
+    position: absolute;
+    z-index: 1;
+    background-color: #C4C4C4;
+}
+label{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding: 1px;
+    justify-content: center;
+}
+label input[type=checkbox]{
+    position: absolute;
+    right: 20px;
+    width: 17px;
+    height: 17px;
+    opacity: 0;
+
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    -webkit-appearance: none;
+
+    cursor: pointer;
+}
+label input[type=checkbox]:checked{
+    -webkit-appearance: none;
+    border: none;
+    background-image: url('./check.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+}
+
+.cards__tegs{
+    width: 243px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 20px;
+}
+.selectBox select{
+    height: 31px;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    background-color: #C4C4C4;
+}
+.cards__filter{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    height: 31px;
+    border-radius: 5px;
+    margin-right: 20px;
+    background: #EBE3E3;
+border: 0.2px solid #000000;
+
+}
+.cards__filters-off{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    height: 31px;
+    border-radius: 5px;
+    margin-right: 20px;
+    background: #EBE3E3;
+    border: 0.2px solid #000000;
+
+}
+.cards__items{
+    padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    margin-top: 22px;
+    position: relative;
+    width: 250px;
+    height: 270px;
+    margin-right: 21px;
+    padding: 50px 40px 30px 40px;
+    background: #C4C4C4;
+    text-decoration: none;
+}
+
+.card__title{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 25px;
+    font-size: 25px;
+
+    font-weight: bold;
+}
+
+.card__datetime{
+    font-family: 'Roboto', sans-serif;
+    width: 100px;
+    text-align: right;
+    position: absolute;
+    right: 40px;
+    top:20px;
+    font-size: 9.7px;
+    font-weight: bold;
+
+    line-height: 40px;
+}
+.card__tags{
+    margin-top: 6px;
+    margin-bottom: 40px;
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card__tag{
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    background-color: #dadada00;
+    border: none;
+}
+
+.card__text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    font-size: 15px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.card__author{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    font-weight: bold;
+}
+
+.text{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.text-strong{
+
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.Unauthorized-label{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left:-365.9px;
+    margin-top:-63px;
+}
+
+ul.pagination li{
+    margin: 4px;
+    display: inline;
+}
+ul.pagination{
+    padding: 0 7px;
+}
+.pagination{
+    display: flex;
+    margin: 7px 0;
+    justify-content: center;
+}
+.page-link{
+    height: 26px;
+    width: 18px;
+    border: 0.2px solid #000000;
+    border-radius: 1px;
+    background: white;
+}
+.paginate{
+    margin: 0 auto;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.prev-page{
+    margin:18px 0px;
+    background: white;
+    background-image: url("prev.png");
+    background-repeat: no-repeat;
+    border: 0px;
+    width: 15px;
+    height: 26px;
+}
+.next-page{
+    margin:18px 0px;
+    background: white;
+    background-image: url("next.png");
+    background-repeat: no-repeat;
+    border: 0px;
+    width: 15px;
+    height: 26px;
+}
+
+.multiselect {
+    width: 100%;
+}
+
+.selectBox {
+    position: relative;
+}
+
+.selectBox select {
+    width: 100%;
+    font-weight: bold;
+}
+
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+}
+
+#checkboxes label {
+    display: flex;
+}
+
+#checkboxes label:hover {
+    background-color: #1e90ff;
+}
+.block{display: block}
+.hide{display: none}

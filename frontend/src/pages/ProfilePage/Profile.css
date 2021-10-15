@@ -1,0 +1,100 @@
+::-webkit-input-placeholder {
+    color: black;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+::-moz-placeholder {
+    color: black;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align:center;
+}
+:-ms-input-placeholder {
+    color: black;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+:-moz-placeholder {
+    color: black;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+input {outline:none;}
+
+.ProfilePage{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.body{
+    font-family: "Roboto", sans-serif;
+    /* font-size: 16px; */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    margin: 0px}
+
+.Label-login{
+    position: relative;
+    top:81px;
+    left:123px
+}
+.Button-img-pen{
+    background: white;
+    background-image: url(./pen.png) ;
+    width: 26px;
+    height: 26px;
+    border: 0px;
+}
+.Login-Change{
+    position: relative;
+    height: 28px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+}
+.Login-input-box{
+    height: 28px;
+    width: 300px;
+    border:0px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.Login-input-box::placeholder{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}

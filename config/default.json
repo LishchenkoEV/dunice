@@ -1,0 +1,5 @@
+{
+    "port": 5000,
+    "mongoURL":"mongodb+srv://Egor:Brat11121996@cluster0.i1xrr.mongodb.net/app?retryWrites=true&w=majority",
+    "jwtSecret":"egor lishchenko dunice"
+}
